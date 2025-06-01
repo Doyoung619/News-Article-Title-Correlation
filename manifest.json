@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "News Title-Content Similarity Analyzer",
+  "version": "1.0",
+  "description": "Analyzes similarity between news article titles and content",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "https://*.daum.net/*",
+    "https://v.daum.net/*",
+    "https://news.daum.net/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.daum.net/*",
+        "https://v.daum.net/*",
+        "https://news.daum.net/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "News Similarity Analyzer"
+  }
+}
