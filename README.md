@@ -19,5 +19,5 @@ https://news.daum.net/
 
 사용 방법 : 
 1. 폴더를 다운받고, chrome://extensions --> 압축해제된 확장 프로그램을 로드합니다 --> 폴더 업로드 및 개발자 모드 on
-2. VS코드 ㄱㄱ, 폴더 경로에 들간뒤 python local_similarity_server.py 터미널에 입력 (필요한 라이브러리는 pip install로 잘 알아서 받으셈 별거없음)
-3. 인제 다음 뉴스홈에 들어가서 결과확인하면 됨
+2. VS코드 터미널 상에서, 폴더 경로에 들간뒤 python local_similarity_server.py 터미널에 입력 (필요한 라이브러리는 pip install로 받을 수 있다. flas, sentence_transformers, flask_cors, torch를 사용하였음을 밝힌다)
+3. 이후 다음 뉴스홈에 들어가서, 구동을 확인할 수 있다.
