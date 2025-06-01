@@ -10,5 +10,14 @@ https://entertain.daum.net/
 https://news.daum.net/
 
 
+시연샷 :
+뉴스 홈
+![image](https://github.com/user-attachments/assets/efd746f3-1eb6-420e-892d-b8d9ed017464)
+기사 들어갔을떄
+![image](https://github.com/user-attachments/assets/7017e58a-c976-4625-8628-3c5ea3b714c7)
+
+
 사용 방법 : 
-git clone
+1. 폴더를 다운받고, chrome://extensions --> 압축해제된 확장 프로그램을 로드합니다 --> 폴더 업로드 및 개발자 모드 on
+2. VS코드 들어가서, 폴더 경로에 들어간후 python local_similarity_server.py 터미널에 입력 (필요한 라이브러리는 pip install로 잘 알아서 받으셈 별거없음)
+3. 인제 다음 뉴스홈에 들어가서 결과확인하면 됨
